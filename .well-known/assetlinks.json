@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.softbiomed.tutorial",
+    "sha256_cert_fingerprints":
+    ["DC:D7:6A:08:3F:37:CF:8D:CC:6D:BA:9A:B7:D4:21:85:D7:DA:F0:92:7D:CD:C8:43:75:8C:02:25:E3:E6:8D:BE"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://github.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.softbiomed.tutorial",
+    "sha256_cert_fingerprints":
+    ["DC:D7:6A:08:3F:37:CF:8D:CC:6D:BA:9A:B7:D4:21:85:D7:DA:F0:92:7D:CD:C8:43:75:8C:02:25:E3:E6:8D:BE"]
+  }
+}]
