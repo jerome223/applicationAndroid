@@ -1,0 +1,2 @@
+# applicationAndroid
+test for appLinks
